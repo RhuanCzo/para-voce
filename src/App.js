@@ -28,14 +28,15 @@ function App() {
 
 
   // contador de dias
-  const [meses, setMeses] = useState(0);
+  const [index, setIndex] = useState(0);
+  const [fade, setFade] = useState(true);
+  
+  /* const [meses, setMeses] = useState(0);
   const [semanas, setSemanas] = useState(0);
   const [dias, setDias] = useState(0);
   const [horas, setHoras] = useState(0);
   const [minutos, setMinutos] = useState(0);
   const [segundos, setSegundos] = useState(0);
-  const [index, setIndex] = useState(0);
-  const [fade, setFade] = useState(true);
 
   // contador de tempo
   useEffect(() => {
@@ -73,7 +74,7 @@ function App() {
 
     return () => clearInterval(intervalo);
 
-  }, []);
+  }, []); */
   // troca de fotos e vídeos
   useEffect(() => {
 
