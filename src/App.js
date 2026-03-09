@@ -102,7 +102,6 @@ function App() {
           src="https://open.spotify.com/embed/track/31VOknKjFrEX47bZXzqcoF?utm_source=generator"
           width="100%"
           height="90"
-          frameBorder="0"
           allowFullScreen
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
@@ -190,7 +189,7 @@ img, video {
 }
 `
 
-const Top = styled.div`
+/* const Top = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -198,7 +197,7 @@ text-align: center;
 font-size: 10px;
 color: #F6F6FA;
 margin-top: 20px;
-`
+` */
 
 const Titulo = styled.div`
 display: flex;
