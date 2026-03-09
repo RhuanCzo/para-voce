@@ -31,7 +31,7 @@ function App() {
   const [index, setIndex] = useState(0);
   const [fade, setFade] = useState(true);
   
-  /* const [meses, setMeses] = useState(0);
+  const [meses, setMeses] = useState(0);
   const [semanas, setSemanas] = useState(0);
   const [dias, setDias] = useState(0);
   const [horas, setHoras] = useState(0);
@@ -74,7 +74,7 @@ function App() {
 
     return () => clearInterval(intervalo);
 
-  }, []); */
+  }, []);
   // troca de fotos e vídeos
   useEffect(() => {
 
@@ -102,6 +102,7 @@ function App() {
           src="https://open.spotify.com/embed/track/31VOknKjFrEX47bZXzqcoF?utm_source=generator"
           width="100%"
           height="90"
+          title="video"
           allowFullScreen
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
@@ -132,9 +133,9 @@ function App() {
 
       </Imagem>
 
-      {/* <Top>
+      <Top>
         <h1> O tempo não passa já estou há {dias} dias, {horas} horas, {minutos} minutos e {segundos} segundos sem te ver ❤️</h1>
-      </Top> */}
+      </Top>
 
       <Titulo>
         <h1>Para a minha dançarina preferida a mulher da minha vida</h1>
@@ -189,7 +190,7 @@ img, video {
 }
 `
 
-/* const Top = styled.div`
+const Top = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -197,7 +198,7 @@ text-align: center;
 font-size: 10px;
 color: #F6F6FA;
 margin-top: 20px;
-` */
+`
 
 const Titulo = styled.div`
 display: flex;
